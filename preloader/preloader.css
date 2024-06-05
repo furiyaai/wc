@@ -43,7 +43,8 @@
   to{ bottom:0; opacity:1 }
 }
 
+/* Shouldn't work
 #myDiv {
   display: none;
   text-align: center;
-}
+} */ 
