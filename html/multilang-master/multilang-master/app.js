@@ -4,8 +4,6 @@ const allLang = ['ua', 'en', 'ru','dd'];
 
 document.querySelectorAll('.left-panel img').forEach(item => item.onmouseenter = (event) => maxImg.src = event.target.src);
 
-select.addEventListener('change', changeURLLanguage);
-
 // перенаправить на url с указанием языка
 function changeURLLanguage() {
     let lang = select.value;
